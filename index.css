@@ -3,27 +3,17 @@
     src: url('./dungeon.ttf');
 }
 
-/** {
+* {
     margin: 0;
     padding: 0;
 }
 
-.imgbox {
-    display: grid;
-    height: 100%;
-}
-
-.center-fit {
+.bg {
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
-}*/
-
-.bg {
     background-image: url(./map.png);
     background-repeat: no-repeat;
     background-position: center;
     background-origin: padding-box;
-    width: auto;
-    height: auto;
 }
