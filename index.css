@@ -19,12 +19,10 @@
     margin: auto;
 }*/
 
-hmtl, body {
-    margin: 0;
-    height: 100%;
+body {
+    background: fixed;
     background-image: url(./map.png);
     background-repeat: no-repeat;
     background-position: center;
     background-origin: padding-box;
-    background: fixed;
 }
