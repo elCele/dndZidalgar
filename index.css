@@ -3,6 +3,10 @@
     src: url('./dungeon.ttf');
 }
 
+* {
+    font-family: dungeon;
+}
+
 body {
     background-image: url(./wood.png);
     display: flex;
