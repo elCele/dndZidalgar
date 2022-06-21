@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    width: 45%;
 }
 
 .p {
@@ -30,6 +31,7 @@ body {
     border-radius: 15px;
     padding: 20px;
     font-size: 30px;
+    width: 45%;
 }
 
 p {
@@ -37,12 +39,8 @@ p {
     margin: 0;
 }
 
-div {
-    width: 45%;
-}
-
 #akeria {
-    width: 5%, auto;
-    height: 5%, auto;
+    width: 5%;
+    height: 5%;
     background-color: blue;
 }
