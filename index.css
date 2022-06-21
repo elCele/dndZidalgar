@@ -22,3 +22,7 @@ body {
     background-color: rgb(195, 169, 106, 0.77);
     border-radius: 15px;
 }
+
+div {
+    width: 30%;
+}
