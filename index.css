@@ -3,6 +3,12 @@
     src: url('./dungeon.ttf');
 }
 
+body {
+    background-image: url(./wood.png);
+    /*background-size: cover;
+    background-position: center;*/
+}
+
 .bg {
     width: 100%;
     height: 100%;
