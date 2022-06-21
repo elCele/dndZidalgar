@@ -24,4 +24,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-origin: padding-box;
+    width: auto;
+    height: auto;
 }
