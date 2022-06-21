@@ -3,7 +3,7 @@
     src: url('./dungeon.ttf');
 }
 
-body {
+.bg {
     background-image: url(./map.png);
     background-repeat: no-repeat;
     background-size: contain;
