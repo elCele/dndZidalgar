@@ -25,6 +25,8 @@ html {
 }
 
 body {
+    min-height: 100%;
+    margin: 0;
     background: fixed;
     background-image: url(./map.png);
     background-repeat: no-repeat;
