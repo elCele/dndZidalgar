@@ -19,15 +19,7 @@
     margin: auto;
 }*/
 
-html {
-    min-height: 100%;
-    margin: 0;
-}
-
-body {
-    min-height: 100%;
-    margin: 0;
-    background: fixed;
+.bg {
     background-image: url(./map.png);
     background-repeat: no-repeat;
     background-position: center;
