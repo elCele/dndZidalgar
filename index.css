@@ -18,3 +18,7 @@
     max-height: 100vh;
     margin: auto;
 }*/
+
+body {
+    background-image: url(./map.png);
+}
