@@ -42,5 +42,6 @@ p {
 #akeria {
     width: 5%;
     padding-top: 100%;
+    position: relative;
     background-color: blue;
 }
