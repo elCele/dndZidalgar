@@ -19,10 +19,6 @@ body {
 
 .p {
     padding: 10px;
-    background-color: rgb(195, 169, 106, 0.3);
+    background-color: rgb(195, 169, 106, 0.77);
     border-radius: 15px;
-}
-
-.p, .bg {
-    width: 33%;
 }
