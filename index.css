@@ -6,6 +6,6 @@
 body {
     background-image: url(./map.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /*background-position: center;*/
 }
