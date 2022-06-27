@@ -31,17 +31,10 @@ body {
     border-radius: 15px;
     padding: 20px;
     font-size: 30px;
-    width: 45%;
+    width: 30%;
 }
 
 p {
     padding: 0;
     margin: 0;
-}
-
-#akeria {
-    width: 5%;
-    padding-top: 100%;
-    position: relative;
-    background-color: blue;
 }
