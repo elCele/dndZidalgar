@@ -1,21 +1,35 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Mattia Celestino">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zidalgar - Home</title>
-        <link rel="stylesheet" href="./index.css">
-    </head>
-    <body>
-        <div class="p">
-            <p>Ciao gay di merda</p>
-        </div>
-        <div class="bg">
-            <map name="Zidalgar">
-                <area shape="rect" coords="20,25,30,35" href="" alt="akeria">
-            </map>
-        </div>
-        <div class="p">
-        </div>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mattia Celestino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zidalgar - Home</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="p">
+        <p>Ciao gay di merda</p>
+    </div>
+    <div class="bg">
+        <map name="Zidalgar">
+            <area shape="rect" coords="20,25,30,35" href="" alt="akeria">
+        </map>
+    </div>
+    <div class="p">
+    </div>
+
+    <script>
+        function mousemove(event) {
+            console.log("pageX: ", event.pageX,
+                "pageY: ", event.pageY,
+                "clientX: ", event.clientX,
+                "clientY:", event.clientY)
+        }
+
+        window.addEventListener('mousemove', mousemove);
+    </script>
+</body>
+
 </html>
