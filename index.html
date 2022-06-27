@@ -21,14 +21,10 @@
     </div>
 
     <script>
-        function mousemove(event) {
-            console.log("pageX: ", event.pageX,
-                "pageY: ", event.pageY,
-                "clientX: ", event.clientX,
-                "clientY:", event.clientY)
-        }
-
-        window.addEventListener('mousemove', mousemove);
+        var x = event.clientX;     // Get the horizontal coordinate
+        var y = event.clientY;     // Get the vertical coordinate
+        var coor = "X coords: " + x + ", Y coords: " + y;
+        console.log(coor)
     </script>
 </body>
 
